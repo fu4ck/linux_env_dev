@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/root/CLionProjects/thread_lib/http_conn.cpp
+http_conn.h
+/root/CLionProjects/thread_lib/http_conn.h
+
+/root/CLionProjects/thread_lib/http_conn.h
+
+/root/CLionProjects/thread_lib/main.cpp
+iostream
+-
+

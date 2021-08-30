@@ -1,0 +1,4 @@
+/home/saar/Desktop/clion-2021.2.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /root/CLionProjects/thread_lib
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /root/CLionProjects/thread_lib/cmake-build-debug
