@@ -1,9 +1,9 @@
 //
 // Created by root on 8/30/21.
 //
+#ifndef LOCKER_H
+#define LOCKER_H
 
-#ifndef THREAD_LIB_LOCKER_H
-#define THREAD_LIB_LOCKER_H
 
 #include <exception>
 #include <pthread.h>
@@ -78,11 +78,11 @@ public:
         return ret == 0;
     }
     bool signal(){
-        return pthread_cond_signal(&m_mutex)==0;
+        return pthread_cond_signal(&m_cond)==0;
     }
 private:
     pthread_mutex_t m_mutex;
     pthread_cond_t m_cond;
 };
 
-#endif //THREAD_LIB_LOCKER_H
+#endif

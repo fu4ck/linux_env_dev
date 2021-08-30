@@ -3,6 +3,10 @@
 
 CMakeFiles/thread_lib.dir/http_conn.cpp.o: \
  ../http_conn.cpp \
- ../http_conn.h
+ ../http_conn.h \
+ ../locker.h
 CMakeFiles/thread_lib.dir/main.cpp.o: \
- ../main.cpp
+ ../http_conn.h \
+ ../locker.h \
+ ../main.cpp \
+ ../threadpool.h
